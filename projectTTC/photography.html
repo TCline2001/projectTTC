@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!--
+	Student Name: Tristan Cline
+	File Name: Photography
+	Date: 12/4/2024
+-->
+<html lang="en">
+
+<head>
+	<title>AutoAperture</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/styles.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Photography is a good way to share your passion">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+		<link rel="shortcut icon" href="images/favicon.ico">
+		<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+		<link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
+</head>
+
+<body>
+	<!-- Skip to Content Link -->
+	<a class="skip" href="#content">Skip to Content</a>
+
+	<div id="container">
+	
+	<!-- Mobile Nav -->
+	<nav class="mobile-nav">
+		<div id="menu-links">
+			<a href="index.html">Home</a>
+			<a href="photography.html">Photography</a>
+			<a href="builds.html">Builds</a>
+			<a href="car-meets.html">Car Meets</a>
+			<a href="social-media.html">Social Media</a>
+		</div>
+		<a class="menu-icon" onclick="hamburger()">
+			<div>&#9776;</div>
+		</a> 
+	</nav>
+	
+	<!--Use the header area for the website name or logo-->
+	<header id="aalogo">
+		<a href="index.html"><img src="images/td.jpg" alt="AutoAperture logo"></a>
+	</header>
+
+	<!--Use the nav area to add hyperlinks to other pages within the website-->
+	<nav class="tablet-desktop">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="photography.html">Photography</a></li>
+			<li><a href="builds.html">Builds</a></li>
+			<li><a href="car-meets.html">Car Meets</a></li>
+			<li><a href="social-media.html">Social Media</a></li>
+		</ul>
+	</nav>
+		<div id="hero" class="tablet-desktop">
+			<video controls poster="images/vidcover.jpg">
+				<source src="media/vid.mp4" type="video/mp4">
+				<source src="media/vid.webm" type="video/webm">
+				<p>Your browser does not support the video element.</p>
+			</video>
+		</div>
+
+		<!--Use the main area to add the main content of the webpage-->
+		<main class=grid id="content">
+		
+			<article> 
+				<h3>Lighting</h3>
+				<img src="images/br.jpg" alt="Picture from the back right corner of the car" class="round">
+				<p>Lighting is going to be just as important as angles, if you can get a good understanding of the two of these, your pictures will come out better than most peoples.</p>
+				<p>Time of day and weather are going to play a very big part in how your pictures turn out. Shooting mid day in direct sun light is actually one of the worst things you can do, so try and plan for sunset or sun rise, or my personal favorite, a very cloudy day. If you have to shoot in the middle of the day, try and find shadier spots, this will help glares and washed out colors.</p>
+				<p>Another this that helps a lot with lighting is lens filters, the biggest one being a polarizer. This will help with reflections and glares as well.
+			</article>
+			<article>
+				<h3>Angles</h3>
+				<img src="images/fl.jpg" alt="Picture from the front left corner of the car" class="round">
+				<p>One of the biggest things that I have learned is that getting to know angles is crutial. Its the first thing you can figure out and have planned before even getting the camera out. These are a lot of the go to shots I like to take.</p>
+				<ul>
+					<li>45 Degree - This one is probably the most universal to any car</li>
+					<li>Straight on front or rear</li>
+					<li>Details - Such as headlights, wheels, decals, etc.</li>
+				</ul>
+			</article>
+			<article>
+				<h3>Environment</h3>
+				<img src="images/bl.jpg" alt="Picture from the back left of the car" class="round">
+				<p>Picking an environment that suits your vehichle is another great way to elevate your photography.</p>
+				<p>Some great starting points are:</p>
+				<ul>
+					<li>Roads</li>
+					<li>Parking lots</li>
+					<li>Gas Stations</li>
+				</ul>
+			</article>
+			<aside class="tablet-desktop grid-item4">
+				<p>A great picture has taken all of these elements into consideration, one of these being off can bring a good picture down.</p>
+			</aside>
+		</main>
+		
+		<!--Use the footer area to add webpage footer content-->
+		<footer>
+			<p>Cline</p>
+			<p>This project is for a class assignment</p>
+			<p><a href="mailto:t.cline2001@gmail.com">t.cline2001@gmail.com</a></p>
+			
+			<div class="social">
+				<a href="https://www.facebook.com" target="_blank"><img src="images/facebook-logo.png" alt="black and white Facebook logo"></a>
+				<a href="https://twitter.com" target="_blank"><img src="images/twitter-logo.png" alt="black and white Twitter logo"></a>
+			</div>
+		</footer>
+	</div>
+	<script src="scripts/script.js"></script>
+</body>
+
+</html>
